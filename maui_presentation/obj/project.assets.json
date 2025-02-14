@@ -33167,11 +33167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aa\\Desktop\\Clase14022025\\maui_presentation\\maui_presentation.csproj",
+      "projectUniqueName": "C:\\Users\\aa\\Desktop\\dev\\maui_presentation\\maui_presentation.csproj",
       "projectName": "maui_presentation",
-      "projectPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\maui_presentation\\maui_presentation.csproj",
+      "projectPath": "C:\\Users\\aa\\Desktop\\dev\\maui_presentation\\maui_presentation.csproj",
       "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\maui_presentation\\obj\\",
+      "outputPath": "C:\\Users\\aa\\Desktop\\dev\\maui_presentation\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
