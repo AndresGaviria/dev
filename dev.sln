@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "srw_presentation", "srw_pre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_presentation", "wpf_presentation\wpf_presentation.csproj", "{6A1A0775-BC9A-42CF-BEAC-EE867E529C0C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mauipresentation", "mauipresentation\mauipresentation.csproj", "{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,12 @@ Global
 		{6A1A0775-BC9A-42CF-BEAC-EE867E529C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A1A0775-BC9A-42CF-BEAC-EE867E529C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A1A0775-BC9A-42CF-BEAC-EE867E529C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6FA2E5-2675-4EC6-8A90-A2C6F92934FB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
