@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aa\\Desktop\\Clase14022025\\wpf_presentation\\wpf_presentation.csproj": {}
+    "C:\\Users\\aa\\Desktop\\dev\\wpf_presentation\\wpf_presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj": {
+    "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj",
+        "projectUniqueName": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj",
         "projectName": "lib_entities",
-        "projectPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj",
+        "projectPath": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj",
         "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\obj\\",
+        "outputPath": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\aa\\Desktop\\Clase14022025\\wpf_presentation\\wpf_presentation.csproj": {
+    "C:\\Users\\aa\\Desktop\\dev\\wpf_presentation\\wpf_presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aa\\Desktop\\Clase14022025\\wpf_presentation\\wpf_presentation.csproj",
+        "projectUniqueName": "C:\\Users\\aa\\Desktop\\dev\\wpf_presentation\\wpf_presentation.csproj",
         "projectName": "wpf_presentation",
-        "projectPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\wpf_presentation\\wpf_presentation.csproj",
+        "projectPath": "C:\\Users\\aa\\Desktop\\dev\\wpf_presentation\\wpf_presentation.csproj",
         "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\wpf_presentation\\obj\\",
+        "outputPath": "C:\\Users\\aa\\Desktop\\dev\\wpf_presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +108,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj": {
-                "projectPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj"
+              "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj": {
+                "projectPath": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj"
               }
             }
           }

@@ -1737,11 +1737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj",
+      "projectUniqueName": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj",
       "projectName": "lib_entities",
-      "projectPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\lib_entities.csproj",
+      "projectPath": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\lib_entities.csproj",
       "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aa\\Desktop\\Clase14022025\\lib_entities\\obj\\",
+      "outputPath": "C:\\Users\\aa\\Desktop\\dev\\lib_entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
