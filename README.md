@@ -62,5 +62,6 @@
     dotnet workload list
     dotnet workload install maui-android
     
+    - EXECUTE AT ROOT dev
     dotnet build -t:Run -f:net8.0-windows
     dotnet build -t:Run -f:net8.0-android
