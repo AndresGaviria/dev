@@ -56,7 +56,7 @@
     -SQLSERVER
     dotnet new sqlproj -n db_presentation
     -MAUI
-    dotnet new maui -n maui_presentation
+    dotnet new maui -n mauipresentation
     dotnet workload restore
 
     dotnet workload list
