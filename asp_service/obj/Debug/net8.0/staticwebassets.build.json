@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AW4y0EbAGGS6tVt/PXYdqS66BkyThIitvFPgC0ezyMw=",
+  "Source": "asp_service",
+  "BasePath": "_content/asp_service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

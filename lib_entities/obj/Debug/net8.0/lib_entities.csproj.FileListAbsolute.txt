@@ -1,0 +1,12 @@
+C:\Users\aa\Desktop\Clase14022025\lib_entities\bin\Debug\net8.0\lib_entities.deps.json
+C:\Users\aa\Desktop\Clase14022025\lib_entities\bin\Debug\net8.0\lib_entities.dll
+C:\Users\aa\Desktop\Clase14022025\lib_entities\bin\Debug\net8.0\lib_entities.pdb
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.AssemblyInfoInputs.cache
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.AssemblyInfo.cs
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.csproj.CoreCompileInputs.cache
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.dll
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\refint\lib_entities.dll
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.pdb
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\ref\lib_entities.dll
+C:\Users\aa\Desktop\Clase14022025\lib_entities\obj\Debug\net8.0\lib_entities.csproj.AssemblyReference.cache
