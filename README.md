@@ -47,8 +47,12 @@
     dotnet new wpf -n wpf_presentation
     -ASP NET CORE WEB API
     dotnet new webapi -n asp_service
+    cd asp_service
+    dotnet publish -c Release -o ./publish
     -ASP NET CORE Razor pages
     dotnet new webapp -n asp_presentation
+    cd asp_presentation
+    dotnet publish -c Release -o ./publish
     -UNIT TEST MSTEST
     dotnet new mstest -n mst_unittest
     -WINDOWS WORKER
