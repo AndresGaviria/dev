@@ -44,6 +44,9 @@
     -Library
     dotnet new classlib -n lib_entities
 
+    -CONSOLE
+    dotnet new console -n cns_presentation
+
     -WPF
     dotnet new wpf -n wpf_presentation
     
@@ -61,6 +64,7 @@
 
     -UNIT TEST MSTEST
     dotnet new mstest -n mst_unittest
+
     -WINDOWS WORKER
     dotnet new worker -n srw_presentation
     
