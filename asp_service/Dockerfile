@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["asp_service.csproj", "asp_service/"]
-RUN dotnet restore "asp_service/asp_service.csproj"
+RUN dotnet restore "./asp_service/asp_service.csproj"
 COPY . .
 WORKDIR "/src/asp_service"
 RUN dotnet build "asp_service.csproj" -c $BUILD_CONFIGURATION -o /app/build
