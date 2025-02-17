@@ -41,6 +41,10 @@
 - dotnet remove package Microsoft.Data.SqlClient
 
 # Proyectos
+    -DEBUG
+    dotnet build
+    dotnet run --configuration Debug
+
     -Library
     dotnet new classlib -n lib_entities
 
