@@ -43,26 +43,34 @@
 # Proyectos
     -Library
     dotnet new classlib -n lib_entities
+
     -WPF
     dotnet new wpf -n wpf_presentation
+    
     -ASP NET CORE WEB API
     dotnet new webapi -n asp_service
-    cd asp_service
-    dotnet publish -c Release -o ./publish
+        cd asp_service
     -ASP NET CORE Razor pages
     dotnet new webapp -n asp_presentation
-    cd asp_presentation
-    dotnet publish -c Release -o ./publish
+        cd asp_presentation
+
+        - local    
+        dotnet publish -c Release -o ./publish
+        - docker
+        docker build -t asp_service:tag .
+
     -UNIT TEST MSTEST
     dotnet new mstest -n mst_unittest
     -WINDOWS WORKER
     dotnet new worker -n srw_presentation
+    
     -SQLSERVER
     dotnet new --install Microsoft.Build.Sql.Templates
     dotnet new sqlproj -n db_presentation
     cd db_presentation
     dotnet build
     dotnet publish -c Release -o ./publish
+    
     -MAUI
     dotnet new maui -n mauipresentation
     dotnet workload restore
@@ -72,4 +80,3 @@
 	
     dotnet build -t:Run -f:net8.0-windows10.0.19041.0
     dotnet build -t:Run -f:net8.0-android
-
