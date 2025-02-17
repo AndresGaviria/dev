@@ -5,5 +5,7 @@
     <Name>db_presentation</Name>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <ProjectGuid>{44f44a5b-c345-4085-b42d-3988bcb38d26}</ProjectGuid>
   </PropertyGroup>
 </Project>

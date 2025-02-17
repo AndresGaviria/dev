@@ -56,6 +56,9 @@
     -SQLSERVER
     dotnet new --install Microsoft.Build.Sql.Templates
     dotnet new sqlproj -n db_presentation
+    cd db_presentation
+    dotnet build
+    dotnet publish -c Release -o ./publish
     -MAUI
     dotnet new maui -n mauipresentation
     dotnet workload restore

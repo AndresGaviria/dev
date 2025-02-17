@@ -2,19 +2,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_presentation", "asp_presentation\asp_presentation.csproj", "{3C8FF0DE-9C59-E668-0720-DACDD56502DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_presentation", "asp_presentation\asp_presentation.csproj", "{3C8FF0DE-9C59-E668-0720-DACDD56502DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_service", "asp_service\asp_service.csproj", "{09514457-205F-0AFC-612B-D06BA1343F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asp_service", "asp_service\asp_service.csproj", "{09514457-205F-0AFC-612B-D06BA1343F6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_entities", "lib_entities\lib_entities.csproj", "{7869F78A-2A51-30C5-6520-0DBB03596AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib_entities", "lib_entities\lib_entities.csproj", "{7869F78A-2A51-30C5-6520-0DBB03596AD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mauipresentation", "mauipresentation\mauipresentation.csproj", "{35F39BD7-8692-5F74-3EB8-77E27163696C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mauipresentation", "mauipresentation\mauipresentation.csproj", "{35F39BD7-8692-5F74-3EB8-77E27163696C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mst_unittest", "mst_unittest\mst_unittest.csproj", "{1332521D-649D-0921-7330-D2716DF217CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mst_unittest", "mst_unittest\mst_unittest.csproj", "{1332521D-649D-0921-7330-D2716DF217CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srw_presentation", "srw_presentation\srw_presentation.csproj", "{0514DA5C-8523-10B5-70E4-33811C4CDAAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "srw_presentation", "srw_presentation\srw_presentation.csproj", "{0514DA5C-8523-10B5-70E4-33811C4CDAAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf_presentation", "wpf_presentation\wpf_presentation.csproj", "{0E37E0D6-D04A-471C-0D3D-FF44074B7ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wpf_presentation", "wpf_presentation\wpf_presentation.csproj", "{0E37E0D6-D04A-471C-0D3D-FF44074B7ADE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "db_presentation", "db_presentation\db_presentation.sqlproj", "{44F44A5B-C345-4085-B42D-3988BCB38D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,11 +52,17 @@ Global
 		{0E37E0D6-D04A-471C-0D3D-FF44074B7ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E37E0D6-D04A-471C-0D3D-FF44074B7ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E37E0D6-D04A-471C-0D3D-FF44074B7ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F44A5B-C345-4085-B42D-3988BCB38D26}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A6422671-7531-47F6-84A6-C86CA51EC84B}
+		SolutionGuid = {AEDCD11B-A3F5-4B2F-B582-5F61F8F0E9FE}
 	EndGlobalSection
 EndGlobal
