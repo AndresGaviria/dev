@@ -54,14 +54,15 @@
     -WINDOWS WORKER
     dotnet new worker -n srw_presentation
     -SQLSERVER
+    dotnet new --install Microsoft.Build.Sql.Templates
     dotnet new sqlproj -n db_presentation
     -MAUI
     dotnet new maui -n mauipresentation
     dotnet workload restore
-
-    dotnet workload list
-    dotnet workload install maui-android
-    
-    - EXECUTE AT ROOT dev
-    dotnet build -t:Run -f:net8.0-windows
+    dotnet build
+        dotnet publish -f net8.0-windows10.0.19041.0 -c Release -p:WindowsPackageType=None -p:WindowsAppSDKSelfContained=true -p:RuntimeIdentifierOverride=win10-x64
+    dotnet maui run
+	
+    dotnet build -t:Run -f:net8.0-windows10.0.19041.0
     dotnet build -t:Run -f:net8.0-android
+
