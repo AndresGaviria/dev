@@ -84,7 +84,6 @@
     dotnet workload restore
     dotnet build
         dotnet publish -f net8.0-windows10.0.19041.0 -c Release -p:WindowsPackageType=None -p:WindowsAppSDKSelfContained=true -p:RuntimeIdentifierOverride=win10-x64
-    dotnet maui run
 	
     dotnet build -t:Run -f:net8.0-windows10.0.19041.0
     dotnet build -t:Run -f:net8.0-android
